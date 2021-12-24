@@ -8,4 +8,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "StudyMultiModule"
 include ':app'
-include ':buildsrc'
