@@ -9,3 +9,8 @@ dependencyResolutionManagement {
 rootProject.name = "StudyMultiModule"
 include ':app'
 include ':hero'
+include ':hero:hero-domain'
+include ':hero:hero-datasource'
+include ':hero:hero-interactors'
+include ':hero:ui-heroList'
+include ':hero:ui-heroDetail'
