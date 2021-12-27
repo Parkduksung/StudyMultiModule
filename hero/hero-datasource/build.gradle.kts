@@ -20,7 +20,7 @@ dependencies {
 
 sqldelight {
     database("HeroDatabase") {
-        packageName = "com.codingwithmitch.hero_datasource.cache"
+        packageName = "com.example.hero_datasource.cache"
         sourceFolders = listOf("sqldelight")
     }
 }
