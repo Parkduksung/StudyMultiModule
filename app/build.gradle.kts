@@ -46,6 +46,7 @@ android {
 dependencies{
 
     implementation(Coil.coil)
+    implementation(project(Modules.core))
 
     implementation(Accompanist.animations)
 
