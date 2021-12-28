@@ -3,15 +3,16 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        jcenter() // Warning: this repository is going to shut down soon
     }
 }
 rootProject.name = "StudyMultiModule"
 include ':app'
+include ':core'
+
 include ':hero'
 include ':hero:hero-domain'
 include ':hero:hero-datasource'
 include ':hero:hero-interactors'
 include ':hero:ui-heroList'
 include ':hero:ui-heroDetail'
-include ':core'
+
